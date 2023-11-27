@@ -1,27 +1,30 @@
 #container {
   text-align: center;
+  padding: 20px;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  strong {
+    font-size: 1.5em;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 1em; /* Mantén el tamaño original para esta frase */
+  }
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.resultado-label {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2em;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+/* Añade estas líneas para aumentar el tamaño de fuente */
+ion-item {
+  ion-label {
+    font-size: 1.3em; /* Ajusta el tamaño de fuente de la etiqueta */
+  }
 
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+  ion-input {
+    font-size: 2em; /* Ajusta el tamaño de fuente del input */
+  }
 }
